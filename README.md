@@ -23,7 +23,7 @@
 
 1. 主流有使用gif和使用图片两种方法
 - 参考了gif的方法：
-    [delta1037/DesktopPet: 桌面宠物](https://github.com/delta1037/DesktopPet)
+    [delta1037/DesktopPet: 桌面宠物](https://github.com/delta1037/DesktopPet),
     [桌面宠物 ① 通过python制作属于自己的桌面宠物_gif制作桌宠-CSDN博客](https://blog.csdn.net/zujiasheng/article/details/124670676)
 - 用图片的：
     [写个桌面挂件 | 手把手带大家做只桌面宠物呗 - 知乎](https://zhuanlan.zhihu.com/p/125693970)
@@ -37,7 +37,7 @@
 3. 各个模块
 - 对于主要功能，利用PyQt5实现。
 - 对于休息提醒模块，此处参考的是：[llq20133100095/DeskTopPet: 桌面宠物](https://github.com/llq20133100095/DeskTopPet/tree/main)
-    由于计时用的QTimer()，在提醒休息的时候不影响正常桌宠语料的更换，利用了setText("")来定时清空休息提醒（设的3秒）
+- 由于计时用的QTimer()，在提醒休息的时候不影响正常桌宠语料的更换，利用了setText("")来定时清空休息提醒（设的3秒）
     
 4. 打包操作
 - 考虑到对Python库的依赖性，使用的是PyInstaller库
